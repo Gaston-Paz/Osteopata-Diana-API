@@ -1,6 +1,8 @@
-const { getAllPacientes } = require('./paciente');
+const paciente = require('./paciente');
+const antecedente = require('./antecedente');
 
 module.exports = {
-    getAllPacientes
+  paciente,
+  antecedente
   // Otras configuraciones aquí...
 };

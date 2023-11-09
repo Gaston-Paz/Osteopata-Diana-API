@@ -1,10 +1,8 @@
-const { getAllPacientes, getPacienteById, createPaciente, updatePaciente, deletePaciente } = require('./paciente');
+const paciente = require('./paciente');
+const antecedente = require('./antecedente');
 
 module.exports = {
-    getAllPacientes,
-    getPacienteById,
-    createPaciente,
-    updatePaciente,
-    deletePaciente,
+  paciente,
+  antecedente
   // Otras configuraciones aquí...
 };
